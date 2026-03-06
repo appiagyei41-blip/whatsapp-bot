@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 TWILIO_ACCOUNT_SID = "AC7042020432dc0905c525977d48d25ade"
 TWILIO_AUTH_TOKEN = "AC7042020432dc0905c525977d48d25ade"
-TWILIO_WHATSAPP_NUMBER = "whatsapp:+233506140644"
+TWILIO_WHATSAPP_NUMBER = TWILIO_WHATSAPP_NUMBER = "whatsapp:+14155238886"
 
 def send_whatsapp_message(phone_number, message):
     try:
